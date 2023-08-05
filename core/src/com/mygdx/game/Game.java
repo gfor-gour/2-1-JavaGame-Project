@@ -6,6 +6,10 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
 
 public class Game extends ApplicationAdapter {
+	public static final int WIDTH = 480;
+	public static final int HEIGHT = 800;
+
+	public static final String TITLE = "Fly And Live";
 	SpriteBatch batch;
 	Texture img;
 	
