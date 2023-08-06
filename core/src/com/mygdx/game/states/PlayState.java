@@ -10,7 +10,7 @@ import com.mygdx.game.Sprites.Tube;
 
 public class PlayState extends State  {
 
-    private static final int TUBE_SPACING = 125;
+    private static final int TUBE_SPACING = 200;
     private static final int TUBE_COUNT = 4;
     private Plane plane;
     private Texture bg;
@@ -18,7 +18,7 @@ public class PlayState extends State  {
     private com.badlogic.gdx.utils.Array<Tube> tubes;
     public PlayState(GameStateManager gsm) {
         super(gsm);
-        plane = new Plane(50,300);
+        plane = new Plane(20,400);
         cam.setToOrtho(false, Game.WIDTH/2,Game.HEIGHT/2);
         bg = new Texture("bg.png");
 
